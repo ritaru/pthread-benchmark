@@ -38,6 +38,8 @@ public:
 	// threadNum is default by 0, not using pthread.
 	threadBench(unsigned long long testSize, int threadNum = 0);
 	~threadBench();
+	double duration;
+	double result;
 	void run();
 	double sumResult();
 	int benchmark();
