@@ -1,7 +1,7 @@
 #include "threadBench.hpp"
 #include <iomanip>
 
-#define TEST_CASE 1000000UL
+#define TEST_CASE 2000000UL
 
 using namespace std;
 
